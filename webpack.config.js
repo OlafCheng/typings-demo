@@ -6,6 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'libs'),
     filename: 'index.js',
+    libraryTarget: 'umd',
+    library: 'TypingsDemo',
   },
   plugins: [
     new CleanWebpackPlugin()
