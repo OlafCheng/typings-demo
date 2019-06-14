@@ -1,4 +1,4 @@
-import DemoComponent from './components/demo-component';
+import DemoComponent from './demo';
 
 export {
   DemoComponent
